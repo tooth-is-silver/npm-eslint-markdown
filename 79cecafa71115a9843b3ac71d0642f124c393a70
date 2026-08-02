@@ -1,0 +1,1 @@
+{"v":1,"f":{"packages/eslint-markdown/src/rules/no-trailing-heading-punctuation.test.ts":[{"s":"operator","l":[75,170,337]}],"packages/eslint-markdown/src/rules/no-trailing-heading-punctuation.ts":[{"s":"operator","l":[18,"57-64",73,92]},{"s":"operator","l":[10]}]}}
