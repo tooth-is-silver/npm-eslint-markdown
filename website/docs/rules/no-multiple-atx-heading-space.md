@@ -99,3 +99,4 @@ If you intentionally use multiple spaces or tabs next to ATX heading markers, yo
 
 - [`MD019` - Multiple spaces after hash on atx style heading](https://github.com/DavidAnson/markdownlint/blob/main/doc/md019.md#md019---multiple-spaces-after-hash-on-atx-style-heading)
 - [`MD021` - Multiple spaces inside hashes on closed atx style heading](https://github.com/DavidAnson/markdownlint/blob/main/doc/md021.md#md021---multiple-spaces-inside-hashes-on-closed-atx-style-heading)
+- [`remark-lint-no-heading-content-indent`](https://github.com/remarkjs/remark-lint/tree/main/packages/remark-lint-no-heading-content-indent#remark-lint-no-heading-content-indent)
