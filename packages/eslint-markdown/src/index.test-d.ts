@@ -143,7 +143,6 @@ type RecommendedConfigRuleName = keyof typeof plugin.configs.recommended.rules;
 'md/no-git-conflict-marker' satisfies RecommendedConfigRuleName;
 'md/no-irregular-dash' satisfies RecommendedConfigRuleName;
 'md/no-irregular-whitespace' satisfies RecommendedConfigRuleName;
-'md/no-multiple-atx-heading-space' satisfies RecommendedConfigRuleName;
 
 plugin.configs.stylistic satisfies Linter.Config;
 plugin.configs.stylistic.name satisfies 'md/stylistic';
@@ -160,6 +159,7 @@ type StylisticConfigRuleName = keyof typeof plugin.configs.stylistic.rules;
 'md/consistent-thematic-break-style' satisfies StylisticConfigRuleName;
 'md/consistent-unordered-list-style' satisfies StylisticConfigRuleName;
 'md/no-consecutive-blank-line' satisfies StylisticConfigRuleName;
+'md/no-multiple-atx-heading-space' satisfies StylisticConfigRuleName;
 'md/no-tab' satisfies StylisticConfigRuleName;
 'md/no-trailing-heading-punctuation' satisfies StylisticConfigRuleName;
 
