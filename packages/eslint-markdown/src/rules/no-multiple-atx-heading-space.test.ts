@@ -139,7 +139,7 @@ Heading  2
       options: [{ checkClosedHeading: true }],
       errors: [
         {
-          messageId: 'noMultipleAtxHeadingSpace',
+          messageId: 'noMultipleAtxClosedHeadingSpace',
           line: 1,
           column: 11,
           endLine: 1,
@@ -161,7 +161,7 @@ Heading  2
           endColumn: 6,
         },
         {
-          messageId: 'noMultipleAtxHeadingSpace',
+          messageId: 'noMultipleAtxClosedHeadingSpace',
           line: 1,
           column: 13,
           endLine: 1,
@@ -232,7 +232,7 @@ Heading  2
       options: [{ checkClosedHeading: true }],
       errors: [
         {
-          messageId: 'noMultipleAtxHeadingSpace',
+          messageId: 'noMultipleAtxClosedHeadingSpace',
           line: 1,
           column: 10,
           endLine: 1,
@@ -247,7 +247,7 @@ Heading  2
       options: [{ checkClosedHeading: true }],
       errors: [
         {
-          messageId: 'noMultipleAtxHeadingSpace',
+          messageId: 'noMultipleAtxClosedHeadingSpace',
           line: 1,
           column: 10,
           endLine: 1,
@@ -262,7 +262,7 @@ Heading  2
       options: [{ checkClosedHeading: true }],
       errors: [
         {
-          messageId: 'noMultipleAtxHeadingSpace',
+          messageId: 'noMultipleAtxClosedHeadingSpace',
           line: 1,
           column: 10,
           endLine: 1,
@@ -348,7 +348,7 @@ Heading  2
           endColumn: 4,
         },
         {
-          messageId: 'noMultipleAtxHeadingSpace',
+          messageId: 'noMultipleAtxClosedHeadingSpace',
           line: 3,
           column: 13,
           endLine: 3,

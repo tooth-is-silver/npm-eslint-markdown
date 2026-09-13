@@ -26,7 +26,7 @@ type RuleOptions = [
     checkClosedHeading: boolean;
   },
 ];
-type MessageIds = 'noMultipleAtxHeadingSpace';
+type MessageIds = 'noMultipleAtxHeadingSpace' | 'noMultipleAtxClosedHeadingSpace';
 
 // --------------------------------------------------------------------------------
 // Helper
@@ -73,6 +73,8 @@ export default {
     messages: {
       noMultipleAtxHeadingSpace:
         'Multiple spaces inside ATX heading markers are not allowed.',
+      noMultipleAtxClosedHeadingSpace:
+        'Multiple spaces before closing ATX heading markers are not allowed.',
     },
 
     language: 'markdown',
@@ -126,7 +128,7 @@ export default {
               end: sourceCode.getLocFromIndex(spacesEndOffset),
             },
 
-            messageId: 'noMultipleAtxHeadingSpace',
+            messageId: 'noMultipleAtxClosedHeadingSpace',
 
             fix(fixer) {
               return fixer.replaceTextRange([spacesStartOffset, spacesEndOffset], ' ');
